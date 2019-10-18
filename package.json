@@ -15,6 +15,7 @@
     "live-server": "^1.2.1",
     "postcss-loader": "^3.0.0",
     "prettier": "^1.18.2",
+    "serve": "^11.2.0",
     "style-loader": "^1.0.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9",
@@ -22,6 +23,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --open",
+    "start:prod": "yarn build && serve dist",
     "build": "webpack -p --mode production"
   }
 }
