@@ -2,6 +2,7 @@ const webpack = require('webpack')
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
+const CopyPlugin = require('copy-webpack-plugin')
 
 const config = {
   entry: './src/index.js',
@@ -36,6 +37,7 @@ const config = {
   },
   plugins: [
     new CleanWebpackPlugin(),
+    new CopyPlugin([{ from: 'public', to: '' }]),
     new HtmlWebpackPlugin({
       template: 'src/index.html'
     })
