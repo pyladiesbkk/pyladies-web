@@ -1,1 +1,8 @@
+# node modules
 node_modules/
+
+# webpack generated files
+dist/
+
+# MacOS files
+.DS-Store
