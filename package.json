@@ -1,0 +1,15 @@
+{
+  "name": "pyladies-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:pyladiesbkk/pyladies-web.git",
+  "author": "Mahatthana Nomsawadi <mahatthana.n@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "scripts": {
+    "start": "node scripts/start.js",
+    "start:test": "live-server"
+  }
+}
