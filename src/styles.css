@@ -48,4 +48,7 @@ nav {
 .name-location {
   font-size: 15px;
   margin-top: 20px;
+  color: #B41735;
+  opacity: 1;
+  font: Medium 15px/23px Poppins;
 }
