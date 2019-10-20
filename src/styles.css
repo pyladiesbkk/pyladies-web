@@ -37,6 +37,10 @@ nav {
   color: aliceblue;
 }
 
+#banner-bg-color .btn-outline-light {
+  border-radius: 23px;
+}
+
 .font-title-banner {
   font: Bold 70px/82px Poppins;
 }
