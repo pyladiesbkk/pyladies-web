@@ -6,3 +6,6 @@ dist/
 
 # MacOS files
 .DS-Store
+
+# VS Code
+.history/*
