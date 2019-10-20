@@ -1,30 +1,62 @@
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #c32d60;
+    font-family: 'Poppins', sans-serif;
+    background-color: #c32d60;
 }
+
 nav {
-  background-color: #c32d60;
+    background-color: #c32d60;
 }
+
 .top-link {
-  color: rebeccapurple;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: pink;
-  padding: 15px 20px;
-  text-align: center;
+    color: rebeccapurple;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: pink;
+    padding: 15px 20px;
+    text-align: center;
 }
-.top-link:hover{
-  color: yellow;
-  background-color: salmon;
+
+.top-link:hover {
+    color: yellow;
+    background-color: salmon;
 }
+
 .logo-navbar {
-  width: 7%;
-  height: 7%;
+    width: 7%;
+    height: 7%;
 }
+
 .footer {
-  padding-top: 10px;
+    padding-top: 10px;
 }
+
 .p-white {
     color: white;
+}
+
+img.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.organizer-content {
+    border: 1px solid #d6d6d6;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.organizer-content .content {
+    align-self: center;
+}
+
+.organizer-content h3 {
+    color: #c32d60
+}
+
+.social a {
+    margin: 10px;
 }
