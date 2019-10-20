@@ -6,10 +6,25 @@
   "author": "Mahatthana Nomsawadi <mahatthana.n@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "autoprefixer": "^9.6.5",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-template": "^6.2.0",
+    "live-server": "^1.2.1",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^1.18.2",
+    "serve": "^11.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
   },
   "scripts": {
-    "start": "node scripts/start.js",
-    "start:test": "live-server"
+    "start": "webpack-dev-server --open",
+    "start:prod": "yarn build && serve dist",
+    "build": "webpack -p --mode production"
   }
 }
