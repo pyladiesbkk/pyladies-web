@@ -34,5 +34,12 @@ nav {
   background-color: #c32d60;
   background-size: cover;
   background-position: center center;
-  /* position: absolute; */
+}
+
+.font-title-banner {
+  font-size: 70px;
+}
+
+.img-banner {
+  padding: 20rem;
 }
