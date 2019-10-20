@@ -1,5 +1,5 @@
 body {
-  background-color: #c32d60;
+    background-color: #c32d60;
 }
 .top-link {
   color: rebeccapurple;
@@ -9,9 +9,14 @@ body {
   background-color: pink;
   padding: 15px 20px;
   text-align: center;
-
 }
 .top-link:hover{
   color: yellow;
   background-color: salmon;
+}
+.footer {
+  padding-top: 10px;
+}
+.p-white {
+    color: white;
 }
