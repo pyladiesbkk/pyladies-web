@@ -62,22 +62,46 @@ img.avatar {
 }
 
 .text-pink {
-  color: deeppink;
+    color: deeppink;
 }
+
 .text-bold {
-  font-weight: bold;
+    font-weight: bold;
 }
+
 .text-topic {
-  font-size: 50px;
-  font-weight: bold;
-  line-height: 1.2;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.2;
 }
+
 .topic-absolute {
-  position: absolute;
-  top: -20px;
-  left: 55px
+    position: absolute;
+    top: -20px;
+    left: 55px
 }
+
 .content-padding {
-  padding-top: 50px;
-  padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*Gallery Slider*/
+
+.owl-carousel .owl-item:not(.center) {
+    transform: scale(0.9)
+}
+.gallery {
+    color: white;
+    margin-top: 60px;
+    min-height: 350px
+}
+
+.gallery-bg {
+    background: white;
+}
+
+.gallery-carousel {
+    margin-top: -280px;
+    margin-bottom: 50px;
 }
