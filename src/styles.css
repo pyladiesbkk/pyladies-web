@@ -1,7 +1,17 @@
 body {
-  background-color: #c32d60;
+    background-color: #c32d60;
 }
-
 nav {
   background-color: #c32d60;
+}
+.logo-navbar {
+  width: 7%;
+  height: 7%;
+}
+.footer {
+    padding-top: 10px;
+}
+
+.p-white {
+    color: white;
 }
