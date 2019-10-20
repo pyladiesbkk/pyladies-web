@@ -8,18 +8,24 @@ nav {
 }
 
 .top-link {
-    color: rebeccapurple;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: pink;
-    padding: 15px 20px;
-    text-align: center;
+  color: rebeccapurple;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: pink;
+  padding: 15px 20px;
+  text-align: center;
 }
-
 .top-link:hover {
-    color: yellow;
-    background-color: salmon;
+  color: yellow;
+  background-color: salmon;
+  color: rebeccapurple;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: pink;
+  padding: 15px 20px;
+  text-align: center;
 }
 
 .logo-navbar {
@@ -32,7 +38,27 @@ nav {
 }
 
 .p-white {
-    color: white;
+  color: white;
+}
+
+#banner-bg-color {
+  background-image: url('/static/assets/design/img-banner-bg.svg');
+  background-color: #c32d60;
+  background-size: cover;
+  background-position: center center;
+  color: aliceblue;
+}
+
+#banner-bg-color .btn-outline-light {
+  border-radius: 23px;
+}
+
+.font-title-banner {
+  font: Bold 70px/82px Poppins;
+}
+
+.img-banner {
+  padding: 20rem;
 }
 
 .text-pink {
