@@ -35,13 +35,10 @@ nav {
   background-size: cover;
   background-position: center center;
   color: aliceblue;
-  padding: 2em;
 }
 
 .font-title-banner {
-  font-size: 70px;
-  line-height: 70px;
-  font-weight: bold;
+  font: Bold 70px/82px Poppins;
 }
 
 .img-banner {
