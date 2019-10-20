@@ -1,7 +1,10 @@
 body {
     background-color: #c32d60;
 }
-
+.logo-navbar {
+  width: 7%;
+  height: 7%;
+}
 .footer {
     padding-top: 10px;
 }
