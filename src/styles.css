@@ -65,6 +65,16 @@ nav {
   padding: 20rem;
 }
 
+.about-section {
+  background-color: white;
+  font-size: 15px;
+  padding: 3em;
+}
+
+.about-section img{
+  height: 342.83px;
+}
+
 .text-pink {
     color: deeppink;
 }
