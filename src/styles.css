@@ -48,3 +48,23 @@ nav {
 .img-banner {
   padding: 20rem;
 }
+.text-pink {
+  color: deeppink;
+}
+.text-bold {
+  font-weight: bold;
+}
+.text-topic {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.topic-absolute {
+  position: absolute;
+  top: -20px;
+  left: 55px
+}
+.content-padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
