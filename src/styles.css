@@ -1,8 +1,10 @@
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #c32d60;
+  overflow-x: hidden;
   scroll-padding-top: 120px;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -51,10 +53,13 @@ nav {
   background-size: cover;
   background-position: center center;
   color: aliceblue;
+  height: 625px;
 }
 
 #banner-bg-color .btn-outline-light {
   border-radius: 23px;
+  font-size: 15px;
+  width: 194px;
 }
 
 .font-title-banner {
@@ -63,6 +68,16 @@ nav {
 
 .img-banner {
   padding: 20rem;
+}
+
+.about-section {
+  background-color: white;
+  font-size: 15px;
+  padding: 3em;
+}
+
+.about-section img{
+  height: 342.83px;
 }
 
 .text-pink {
