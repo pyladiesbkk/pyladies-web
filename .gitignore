@@ -11,3 +11,4 @@ dist/
 
 #VS Code
 .history/*
+.vscode
