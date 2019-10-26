@@ -1,3 +1,121 @@
 body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #c32d60;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: #c32d60;
+}
+
+.top-link {
+  color: rebeccapurple;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: pink;
+  padding: 15px 20px;
+  text-align: center;
+}
+.top-link:hover {
+  color: yellow;
+  background-color: salmon;
+  color: rebeccapurple;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: pink;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.logo-navbar {
+    width: 7%;
+    height: 7%;
+}
+
+.footer {
+    padding-top: 10px;
+}
+
+.p-white {
+  color: white;
+}
+
+#banner-bg-color {
+  background-image: url('/static/assets/design/img-banner-bg.svg');
   background-color: #c32d60;
+  background-size: cover;
+  background-position: center center;
+  color: aliceblue;
+  height: 625px;
+}
+
+#banner-bg-color .btn-outline-light {
+  border-radius: 23px;
+  font-size: 15px;
+  width: 194px;
+}
+
+.font-title-banner {
+  font: Bold 70px/82px Poppins;
+}
+
+.img-banner {
+  padding: 20rem;
+}
+
+.about-section {
+  background-color: white;
+  font-size: 15px;
+  padding: 3em;
+}
+
+.about-section img{
+  height: 342.83px;
+}
+
+.text-pink {
+    color: deeppink;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-topic {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.topic-absolute {
+    position: absolute;
+    top: -20px;
+    left: 55px
+}
+
+.content-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*Gallery Slider*/
+
+.owl-carousel .owl-item:not(.center) {
+    transform: scale(0.9)
+}
+.gallery {
+    color: white;
+    margin-top: 60px;
+    min-height: 350px
+}
+
+.gallery-bg {
+    background: white;
+}
+
+.gallery-carousel {
+    margin-top: -280px;
+    margin-bottom: 50px;
 }
