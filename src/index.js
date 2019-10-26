@@ -1,8 +1,13 @@
 import './styles.css'
 
-$(document).ready(function () {
-    $(".top-link").click(function () {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+AOS.init({
+    easing: 'ease-out-back',
+    duration: 1000
+});
+
+$(document).ready(function(){
+    $(".top-link").click(function() {
+        window.scrollTo({top: 0, behavior: 'smooth'});
     });
     //gallery slider
     $('.owl-carousel').owlCarousel({
