@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="725" viewBox="0 0 1600 725">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.732" y2="1.306" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c32d60"/>
+      <stop offset="1" stop-color="#91153f"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_27" data-name="Rectangle 27" width="1600" height="725" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="0.947" y1="6.981" x2="0.519" y2="0.77" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#965cf2"/>
+      <stop offset="1" stop-color="#ff8adc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.952" y1="5.154" x2="0.5" y2="0.495" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" clip-path="url(#clip-path)">
+    <g id="Group_177" data-name="Group 177" transform="translate(183.12 -180.26)" opacity="0.283">
+      <path id="Path_270" data-name="Path 270" d="M442.073,808.539c-86.955-25.25-169.882,25.866-234.92,122.6h1237.5V468.331C888.712,464.074,1057.714,987.255,442.073,808.539Z" transform="translate(0 0)" fill-rule="evenodd" opacity="0.5" fill="url(#linear-gradient-2)"/>
+      <path id="Path_271" data-name="Path 271" d="M373.815,871.789c-60.03-9.22-110.082,13.543-152.59,59.343h1190.3V468.307C895.47,650.422,941.611,959.029,373.815,871.789Z" transform="translate(33.133 0.005)" fill-rule="evenodd" fill="url(#linear-gradient-3)"/>
+    </g>
+  </g>
+</svg>
