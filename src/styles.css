@@ -152,6 +152,30 @@ nav {
     background: white;
 }
 
+#circle img{
+  width: 154px;
+  height: 154px;
+  background: red;
+  border-radius: 50%;
+  z-index: 999;
+}
+
+.box-location{
+  padding: 10px;
+}
+
+.row .card{
+  border: 0px;
+}
+
+.name-location {
+  font-size: 15px;
+  margin-top: 20px;
+  color: #B41735;
+  opacity: 1;
+  font: Medium 15px/23px Poppins;
+}
+
 .gallery-carousel {
     margin-top: -280px;
     margin-bottom: 50px;
