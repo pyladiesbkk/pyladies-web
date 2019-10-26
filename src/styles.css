@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #c32d60;
+    overflow-x: hidden;
 }
 
 nav {
@@ -8,18 +9,24 @@ nav {
 }
 
 .top-link {
-    color: rebeccapurple;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: pink;
-    padding: 15px 20px;
-    text-align: center;
+  color: rebeccapurple;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: pink;
+  padding: 15px 20px;
+  text-align: center;
 }
-
 .top-link:hover {
-    color: yellow;
-    background-color: salmon;
+  color: yellow;
+  background-color: salmon;
+  color: rebeccapurple;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: pink;
+  padding: 15px 20px;
+  text-align: center;
 }
 
 .logo-navbar {
@@ -27,12 +34,82 @@ nav {
     height: 7%;
 }
 
+.organizer-col-left {
+  padding-top: 90px;
+}
+
+.organizer-section-subtitle {
+  font: Bold 13px/24px Poppins;
+  letter-spacing: 0.52px;
+  color: #B41735;
+}
+
+.organizer-section-title {
+  text-align: left;
+  font: Bold 66px/78px Poppins;
+  letter-spacing: 0;
+  color: #08061C;
+}
+
+.organizer-info {
+  border-radius: 3px;
+  border: 1px solid #DEDEDE;
+  padding: 25px 35px;
+  display: flex;
+
+}
+
+.organizer-info > img {
+  border-radius: 50%;
+  flex: 0 0 130px;
+  max-width: 130px;
+  height: 130px;
+  margin-right: 35px;
+}
+
+.organizer-info + .organizer-info {
+  margin-top: 8px;
+}
+
 .footer {
     padding-top: 10px;
 }
 
 .p-white {
-    color: white;
+  color: white;
+}
+
+#banner-bg-color {
+  background-image: url('/static/assets/design/img-banner-bg.svg');
+  background-color: #c32d60;
+  background-size: cover;
+  background-position: center center;
+  color: aliceblue;
+  height: 625px;
+}
+
+#banner-bg-color .btn-outline-light {
+  border-radius: 23px;
+  font-size: 15px;
+  width: 194px;
+}
+
+.font-title-banner {
+  font: Bold 70px/82px Poppins;
+}
+
+.img-banner {
+  padding: 20rem;
+}
+
+.about-section {
+  background-color: white;
+  font-size: 15px;
+  padding: 3em;
+}
+
+.about-section img{
+  height: 342.83px;
 }
 
 img.avatar {
@@ -99,6 +176,30 @@ img.avatar {
 
 .gallery-bg {
     background: white;
+}
+
+#circle img{
+  width: 154px;
+  height: 154px;
+  background: red;
+  border-radius: 50%;
+  z-index: 999;
+}
+
+.box-location{
+  padding: 10px;
+}
+
+.row .card{
+  border: 0px;
+}
+
+.name-location {
+  font-size: 15px;
+  margin-top: 20px;
+  color: #B41735;
+  opacity: 1;
+  font: Medium 15px/23px Poppins;
 }
 
 .gallery-carousel {
