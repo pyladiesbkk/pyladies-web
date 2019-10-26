@@ -1,7 +1,12 @@
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #c32d60;
-    overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  background-color: #c32d60;
+  overflow-x: hidden;
+  scroll-padding-top: 120px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 nav {
