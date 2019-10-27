@@ -21,7 +21,10 @@ nav {
   background-color: pink;
   padding: 15px 20px;
   text-align: center;
+  cursor: pointer;
+  z-index: 1;
 }
+
 .top-link:hover {
   color: yellow;
   background-color: salmon;
